@@ -1,0 +1,92 @@
+2024-10-23 20:34:51.877 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-23 20:34:52.345 +05:30 [DBG] Hosting starting
+2024-10-23 20:34:53.746 +05:30 [INF] Now listening on: https://localhost:7051
+2024-10-23 20:34:53.747 +05:30 [INF] Now listening on: http://localhost:5151
+2024-10-23 20:34:53.747 +05:30 [DBG] Loaded hosting startup assembly WebAPIDemos
+2024-10-23 20:34:53.747 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-23 20:34:53.747 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-23 20:34:53.747 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-23 20:34:54.001 +05:30 [DBG] Connection id "0HN7JEG6GACTF" accepted.
+2024-10-23 20:34:54.003 +05:30 [DBG] Connection id "0HN7JEG6GACTF" started.
+2024-10-23 20:34:54.410 +05:30 [DBG] Connection id "0HN7JEG6GACTG" received FIN.
+2024-10-23 20:34:54.411 +05:30 [DBG] Connection id "0HN7JEG6GACTF" received FIN.
+2024-10-23 20:34:54.413 +05:30 [DBG] Connection id "0HN7JEG6GACTG" accepted.
+2024-10-23 20:34:54.414 +05:30 [DBG] Connection id "0HN7JEG6GACTG" started.
+2024-10-23 20:34:55.759 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-10-23 20:34:55.759 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-10-23 20:34:56.221 +05:30 [DBG] Connection id "0HN7JEG6GACTF" stopped.
+2024-10-23 20:34:56.221 +05:30 [DBG] Connection id "0HN7JEG6GACTG" stopped.
+2024-10-23 20:34:56.241 +05:30 [DBG] Connection id "0HN7JEG6GACTG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-23 20:34:56.241 +05:30 [DBG] Connection id "0HN7JEG6GACTF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-23 20:34:56.353 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-23 20:34:56.357 +05:30 [INF] Hosting environment: Development
+2024-10-23 20:34:56.358 +05:30 [INF] Content root path: C:\Users\Partha.bora\source\repos\WebAPIDemos
+2024-10-23 20:34:56.358 +05:30 [DBG] Hosting started
+2024-10-23 20:34:58.619 +05:30 [DBG] Connection id "0HN7JEG6GACTH" accepted.
+2024-10-23 20:34:58.629 +05:30 [DBG] Connection id "0HN7JEG6GACTH" started.
+2024-10-23 20:34:59.054 +05:30 [DBG] Connection 0HN7JEG6GACTH established using the following protocol: "Tls12"
+2024-10-23 20:35:00.009 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7051/swagger/index.html - -
+2024-10-23 20:35:01.053 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-23 20:35:01.152 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-10-23 20:35:01.156 +05:30 [DBG] Request did not match any endpoints
+2024-10-23 20:35:01.414 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-10-23 20:35:01.420 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-23 20:35:01.532 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2024-10-23 20:35:01.534 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-23 20:35:01.541 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7051/swagger/index.html - - - 200 - text/html;charset=utf-8 1564.2714ms
+2024-10-23 20:35:01.808 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7051/_framework/aspnetcore-browser-refresh.js - -
+2024-10-23 20:35:01.886 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7051/_vs/browserLink - -
+2024-10-23 20:35:02.059 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7051/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 251.7407ms
+2024-10-23 20:35:02.212 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7051/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 325.3557ms
+2024-10-23 20:35:03.537 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7051/swagger/v1/swagger.json - -
+2024-10-23 20:35:03.538 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-10-23 20:35:03.538 +05:30 [DBG] Request did not match any endpoints
+2024-10-23 20:35:04.200 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7051/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 661.9615ms
+2024-10-23 20:35:05.516 +05:30 [DBG] Connection id "0HN7JEG6GACTH" received FIN.
+2024-10-23 20:35:05.521 +05:30 [DBG] The connection queue processing loop for 0HN7JEG6GACTH completed.
+2024-10-23 20:35:05.527 +05:30 [DBG] Connection id "0HN7JEG6GACTH" is closed. The last processed stream ID was 7.
+2024-10-23 20:35:05.527 +05:30 [DBG] Connection id "0HN7JEG6GACTH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-23 20:35:05.535 +05:30 [DBG] Connection id "0HN7JEG6GACTH" stopped.
+2024-10-23 20:35:32.293 +05:30 [DBG] Connection id "0HN7JEG6GACTI" accepted.
+2024-10-23 20:35:32.295 +05:30 [DBG] Connection id "0HN7JEG6GACTI" started.
+2024-10-23 20:35:32.326 +05:30 [DBG] Connection 0HN7JEG6GACTI established using the following protocol: "Tls12"
+2024-10-23 20:35:32.359 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7051/api/VillaApi - -
+2024-10-23 20:35:32.383 +05:30 [DBG] 1 candidate(s) found for the request path '/api/VillaApi'
+2024-10-23 20:35:32.409 +05:30 [DBG] Endpoint 'WebAPIDemos.Controllers.VillaApiController.GetVillas (WebAPIDemos)' with route pattern 'api/VillaApi' is valid for the request path '/api/VillaApi'
+2024-10-23 20:35:32.411 +05:30 [DBG] Request matched endpoint 'WebAPIDemos.Controllers.VillaApiController.GetVillas (WebAPIDemos)'
+2024-10-23 20:35:32.432 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-23 20:35:32.445 +05:30 [INF] Executing endpoint 'WebAPIDemos.Controllers.VillaApiController.GetVillas (WebAPIDemos)'
+2024-10-23 20:35:32.564 +05:30 [INF] Route matched with {action = "GetVillas", controller = "VillaApi"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[WebAPIDemos.Models.Dto.VillaDTO] GetVillas() on controller WebAPIDemos.Controllers.VillaApiController (WebAPIDemos).
+2024-10-23 20:35:32.576 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-23 20:35:32.577 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-23 20:35:32.577 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-23 20:35:32.578 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-23 20:35:32.578 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-23 20:35:32.627 +05:30 [DBG] Executing controller factory for controller WebAPIDemos.Controllers.VillaApiController (WebAPIDemos)
+2024-10-23 20:35:32.661 +05:30 [DBG] Executed controller factory for controller WebAPIDemos.Controllers.VillaApiController (WebAPIDemos)
+2024-10-23 20:35:32.904 +05:30 [INF] Getting all the Villas
+2024-10-23 20:35:32.910 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-10-23 20:35:32.914 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-10-23 20:35:33.213 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-10-23 20:35:33.213 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-23 20:35:33.213 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-23 20:35:33.216 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-23 20:35:33.217 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPIDemos.Models.Dto.VillaDTO, WebAPIDemos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-23 20:35:35.283 +05:30 [INF] Executed action WebAPIDemos.Controllers.VillaApiController.GetVillas (WebAPIDemos) in 2695.0815ms
+2024-10-23 20:35:35.284 +05:30 [INF] Executed endpoint 'WebAPIDemos.Controllers.VillaApiController.GetVillas (WebAPIDemos)'
+2024-10-23 20:35:35.284 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7051/api/VillaApi - - - 200 108 application/json;+charset=utf-8 2925.1780ms
+2024-10-23 20:35:35.573 +05:30 [DBG] Connection id "0HN7JEG6GACTI" received FIN.
+2024-10-23 20:35:35.574 +05:30 [DBG] Connection id "0HN7JEG6GACTI" is closed. The last processed stream ID was 1.
+2024-10-23 20:35:35.574 +05:30 [DBG] Connection id "0HN7JEG6GACTI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-23 20:35:35.575 +05:30 [DBG] The connection queue processing loop for 0HN7JEG6GACTI completed.
+2024-10-23 20:35:35.576 +05:30 [DBG] Connection id "0HN7JEG6GACTI" stopped.
